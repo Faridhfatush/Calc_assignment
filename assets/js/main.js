@@ -10,7 +10,7 @@ let compute=()=>{
         result.value=eval(result.value)
     }
     catch(err){
-        alert ("enter valid input");
+        result.value='ERROR'
     }
 }
 clear_btn.addEventListener('click',()=>{
